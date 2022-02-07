@@ -1,0 +1,500 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	position: relative;
+	background-color: black;
+}
+
+/*whole-top*/
+
+.top_wrap {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	position: relative;
+}
+
+.top {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*top-left*/
+
+.top_left {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	color: deeppink;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 26px;
+	margin-right: 3px;
+}
+
+
+/*top-right
+ */
+
+.top_right {
+	float: left;
+	margin-left: 350px;
+	color: white;
+	font-size: 17px;
+}
+
+.top_right .home {
+	float: left;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+}
+
+.top_right .aboutme_top {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+	background-color: pink;
+	color: deeppink;
+}
+
+.top_right .skill {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+
+.top_right .WE {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+
+.top_right .PL {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+
+
+/*aboutme*/
+
+.about_me {
+	height: 500px;
+	background-color: pink;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.about_me .img {
+	width: 100%;
+	display: block;
+	margin-left: 200px;
+	margin-top: 50px;
+	position: absolute;
+}
+
+
+/*myinfo*/
+
+.about_me .my_info {
+	display: block;
+	float: right;
+	margin-right: 250px;
+	margin-top: 100px;
+}
+
+
+}
+.my_info .sen {
+	padding-bottom: 500px;
+	float: right;
+	position: absolute;
+}
+.sen .sen_2 {
+	margin-bottom: 20px;
+}
+.my_info .name {
+	margin-top: 50px;
+}
+.my_info .contact {
+	padding-top: 20px;
+}
+.my_info .email {
+	padding-top: 20px;
+}
+.my_info .Lk {
+	margin-top: 20px;
+}
+.Lk a {
+	text-decoration: none;
+}
+
+/*my skill*/
+.my_skill {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: black;
+	color: deeppink;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*mid-skill*/
+.my_skill {
+	width: 100%;
+	background-color: black;
+}
+.skill_list {
+	width: 100%;
+	background-color: black;
+}
+#skill_design .des_img {
+	display: block;
+	float: left;
+	width: 32%;
+	margin-left: 1%;
+}
+#skill_marketing img {
+	display: block;
+	float: left;
+	width: 32%;
+	margin-left: 1%;
+}
+#skill_programming img {
+	display: block;
+	float: left;
+	width: 32%;
+	margin-left: 1%;
+}
+
+/*mid-bottom*/
+.mid-bottom {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+}
+.mid-bottom .design_list {
+	width: 32%;
+	margin-left: 1%;
+	height: 300px;
+	border: 2px solid white;
+	text-align: centre;
+	line-height: 3em;
+	font-size: 28px;
+	float: left;
+	background: black;
+}
+.mid-bottom .marketing_list {
+	width: 32%;
+	height: 300px;
+	border: 2px solid white;
+	text-align: centre;
+	line-height: 2em;
+	font-size: 18px;
+	float: left;
+	background-color: black;
+}
+.mid-bottom .code_list {
+	width: 32%;
+	margin-right: 2px;
+	height: 300px;
+	border: 2px solid white;
+	text-align: centre;
+	line-height: 2.5em;
+	font-size: 28px;
+	float: left;
+	background-color: black;
+}
+
+/*work experience*/
+#work_Experience_wrap {
+	width: 100%;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+/*inventory manager*/
+#inv_manager {
+	width: 24%;
+	margin-left: 1%;
+	height: 760px;
+	border: 2px solid white;
+	display: block;
+	padding-top: 30px;
+	float: left;
+	background-color: pink;
+	line-height: 2em;
+}
+#inv_top {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.man_con_detail {
+	list-style: none;
+}
+#mkt_co {
+	width: 24%;
+	height: 760px;
+	border: 2px solid white;
+	display: block;
+	padding-top: 30px;
+	float: left;
+	background-color: pink;
+}
+#co_top {
+	padding-bottom: 20px;
+	text-align: center;
+	line-height: 2em;
+}
+.mkt_co_detail {
+	list-style: none;
+	line-height: 2em;
+}
+
+/*dental assistant*/
+#den_ass {
+	width: 24%;
+	height: 760px;
+	border: 2px solid white;
+	float: left;
+	background-color: pink;
+	padding-top: 30px;
+}
+#den_top {
+	padding-bottom: 20px;
+	text-align: center;
+	line-height: 2em;
+}
+.den_ass_detail {
+	list-style: none;
+	line-height: 3em;
+}
+
+/*marketing volunteer*/
+#mkt_volun {
+	width: 24%;
+	height: 760px;
+	border: 2px solid white;
+	float: left;
+	background-color: pink;
+	padding-top: 30px;
+}
+#mkt_volun .volun_mid .img {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+#mkt_volun_top {
+	padding-bottom: 20px;
+	text-align: center;
+	line-height: 2em;
+}
+.mkt_volun_detail {
+	list-style: none;
+	line-height: 2em;
+}
+
+/*work  show*/
+.work_show {
+	width: 100%;
+	background-color: black;
+	margin: 0 auto;
+}
+.ws_top {
+	width: 100%;
+	heigh: 50px;
+	background-color: black;
+	text-align: centre;
+	font-weight: bold;
+}
+.img_1 {
+	float: left;
+	width: 24%;
+	margin-left: 2%;
+	margin-top: 50px;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.img_2 {
+	float: left;
+	width: 24%;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.img_3 {
+	float: left;
+	width: 24%;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.img_4 {
+	float: left;
+	width: 24%;
+	display: block;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.img_5 {
+	float: left;
+	width: 24%;
+	margin-left: 2%;
+	display: block;
+	margin-top: 3px;
+	text-align: center;
+}
+.img_6 {
+	float: left;
+	width: 24%;
+	margin-top: 3px;
+	text-align: center;
+}
+.img_7 {
+	float: left;
+	width: 24%;
+	margin-top: 3px;
+	text-align: center;
+}
+.img_8 {
+	float: left;
+	width: 24%;
+	margin-top: 3px;
+	text-align: center;
+}
+
+/*my personal life*/
+.PL_wrap {
+	width: 100%;
+	overflow: hidden;
+}
+.PL_top {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	color: deeppink;
+	line-height: 40px;
+	border: 2px solid black;
+	margin-top: 50px;
+	line-height: 50px;
+}
+
+
+/*mypersonal life*/
+img {
+	display: block;
+}
+
+#box {
+	width: 1000px;
+	height: 650px;
+	margin: 100px auto;
+	padding: 5px;
+	position: relative;
+	overflow: hidden;
+	background-color: black;
+	margin-top: 20px;
+}
+#pic {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#pic li {
+	position: absolute;
+	left: 120px;
+	margin: 0 auto;
+	top: 0;
+	opacity: 0;
+	z-index: 1;
+	transition: opacity 0.2s ease-out;
+}
+#pic li.active {
+	opacity: 1;
+	z-index: 2;
+}
+#dot {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	z-index: 2;
+	float: left;
+	color: black;
+}
+#dot li {
+	width: 10px;
+	height: 10px;
+	background: rgba(255, 255, 255, 0.4);
+	text-indent: 9999px;
+	float: left;
+	margin: 0 5px;
+	cursor: pointer;
+	float: right;
+}
+#dot li.active {
+	width: 15px;
+	background: rgba(255, 255, 255, 1);
+}
+
+/*keep in contact*/
+.keep_contact {
+	width: 100%;
+}
+.kc_top {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	color: deeppink;
+	line-height: 50px;
+	background-color: #333333;
+}
+.ct_con {
+	width: 100%;
+	height: 40px;
+	color: white;
+	float: left;
+	background-color: #333333;
+}
+.ct_email {
+	float: left;
+	margin-left: 450px;
+	text-align: center;
+}
+.ct_linkedin {
+	color: white;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
